@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: rgba(73, 73);
+    width: 65rem;
+    height: 40rem;
+    display: flex;
+    position: absolute;
+    left: 22%;
+    top: 8rem;
+    z-index: 9999;
+    border-radius: 20px;
+    background: url(https://s3-alpha-sig.figma.com/img/d906/82dd/87eb4b96a94fd192c8002eb13944427f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KHAmgdRqwihvdTSu-hKwrsbrxx~TwBXrypNiTkBqyR0RK3Kr1aTCfC7xGbF-WvAZcqHyp1EvJhvW4JiokQ6~Dt0RCnaXZGxXBVVfotWnuNTZ3ppOZMRPDRGgXY4YO8PrlgzNdmUBIVmjDyCyCaKRqk6aMAbBrjdL-y5ViZTlS-y1ITk1mBJ~5Uv0U3sZbbynFVEUTDoDp-ZmcULZGIB2ITG4d6T504AR~NkrcRrM9zbMUgb~yjZhKAW4~76tITPKB12YFN8yMV8onpm7XXK5o91R9VR61-q2YfFb7Btjz4OMYci6SKWyVdR0tATDqHuzd92f5sDIEjR-uS6wcMUZvQ__);
+    opacity: 0.5;
+}
+
+.circle1 {
+    background: linear-gradient(to top, rgb(255, 230, 0), rgb(255, 115, 0));
+    border-radius: 300px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+    
+}
+
+.circle2 {
+    background: linear-gradient(to top, rgb(162, 0, 255), rgb(0, 0, 0));
+    border-radius: 300px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    left: 800px;
+    bottom: 600px;
+}
+
+.circle3 {
+    background: linear-gradient(to top, rgb(47, 0, 255), rgb(0, 255, 234));
+    border-radius: 300px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    left: 850px;
+    bottom: 200px;
+}
+
+.circle4 {
+    background: linear-gradient(to top, rgb(255, 0, 212), rgb(255, 0, 0));
+    border-radius: 300px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 1300px;
+    bottom: 300px;
+}
