@@ -1,47 +1,50 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
-    background-color: aliceblue;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    background-color: rgba(73, 73);
     width: 65rem;
     height: 40rem;
     display: flex;
     position: absolute;
-    left: 22%;
+    left: 22%;  
     top: 8rem;
     z-index: 9999;
     border-radius: 20px;
-    background: url(https://s3-alpha-sig.figma.com/img/d906/82dd/87eb4b96a94fd192c8002eb13944427f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KHAmgdRqwihvdTSu-hKwrsbrxx~TwBXrypNiTkBqyR0RK3Kr1aTCfC7xGbF-WvAZcqHyp1EvJhvW4JiokQ6~Dt0RCnaXZGxXBVVfotWnuNTZ3ppOZMRPDRGgXY4YO8PrlgzNdmUBIVmjDyCyCaKRqk6aMAbBrjdL-y5ViZTlS-y1ITk1mBJ~5Uv0U3sZbbynFVEUTDoDp-ZmcULZGIB2ITG4d6T504AR~NkrcRrM9zbMUgb~yjZhKAW4~76tITPKB12YFN8yMV8onpm7XXK5o91R9VR61-q2YfFb7Btjz4OMYci6SKWyVdR0tATDqHuzd92f5sDIEjR-uS6wcMUZvQ__);
-    opacity: 0.5;
+    backdrop-filter: blur(10px);
 }
 
 .circle1 {
-    background: linear-gradient(to top, rgb(255, 230, 0), rgb(255, 115, 0));
+    background: linear-gradient(to top, rgb(255, 251, 0), rgb(255, 123, 0));
     border-radius: 300px;
     width: 500px;
     height: 500px;
     display: flex;
     position: absolute;
-    left: 80px;
+    left: 200px;
     bottom: 50px;
-    
 }
 
 .circle2 {
-    background: linear-gradient(to top, rgb(162, 0, 255), rgb(0, 0, 0));
+    background: linear-gradient(to top, rgb(132, 0, 165), rgb(225, 0, 255));
     border-radius: 300px;
     width: 250px;
     height: 250px;
     display: flex;
     position: absolute;
     left: 800px;
-    bottom: 600px;
+    bottom: 660px;
 }
 
 .circle3 {
-    background: linear-gradient(to top, rgb(47, 0, 255), rgb(0, 255, 234));
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(38, 101, 117));
     border-radius: 300px;
     width: 150px;
     height: 150px;
@@ -52,12 +55,91 @@
 }
 
 .circle4 {
-    background: linear-gradient(to top, rgb(255, 0, 212), rgb(255, 0, 0));
+    background: linear-gradient(to bottom, rgb(255, 0, 128), rgb(255, 27, 152));
     border-radius: 300px;
     width: 350px;
     height: 350px;
     display: flex;
     position: absolute;
-    left: 1300px;
+    left: 1201px;
     bottom: 300px;
+}
+
+.esquerda {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(https://s3-alpha-sig.figma.com/img/d906/82dd/87eb4b96a94fd192c8002eb13944427f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KHAmgdRqwihvdTSu-hKwrsbrxx~TwBXrypNiTkBqyR0RK3Kr1aTCfC7xGbF-WvAZcqHyp1EvJhvW4JiokQ6~Dt0RCnaXZGxXBVVfotWnuNTZ3ppOZMRPDRGgXY4YO8PrlgzNdmUBIVmjDyCyCaKRqk6aMAbBrjdL-y5ViZTlS-y1ITk1mBJ~5Uv0U3sZbbynFVEUTDoDp-ZmcULZGIB2ITG4d6T504AR~NkrcRrM9zbMUgb~yjZhKAW4~76tITPKB12YFN8yMV8onpm7XXK5o91R9VR61-q2YfFb7Btjz4OMYci6SKWyVdR0tATDqHuzd92f5sDIEjR-uS6wcMUZvQ__);
+    opacity: 0.1;
+}
+
+.direita {
+    display: flex;
+    width: 140%;
+    height: 100%;
+    padding: 2rem;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://s3-alpha-sig.figma.com/img/d906/82dd/87eb4b96a94fd192c8002eb13944427f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KHAmgdRqwihvdTSu-hKwrsbrxx~TwBXrypNiTkBqyR0RK3Kr1aTCfC7xGbF-WvAZcqHyp1EvJhvW4JiokQ6~Dt0RCnaXZGxXBVVfotWnuNTZ3ppOZMRPDRGgXY4YO8PrlgzNdmUBIVmjDyCyCaKRqk6aMAbBrjdL-y5ViZTlS-y1ITk1mBJ~5Uv0U3sZbbynFVEUTDoDp-ZmcULZGIB2ITG4d6T504AR~NkrcRrM9zbMUgb~yjZhKAW4~76tITPKB12YFN8yMV8onpm7XXK5o91R9VR61-q2YfFb7Btjz4OMYci6SKWyVdR0tATDqHuzd92f5sDIEjR-uS6wcMUZvQ__);
+    opacity: 0.6;
+    gap: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+form input {
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 200%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.redes-sociais img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px; 
+}
+
+.entrar {
+    display: flex;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    width: 100%; 
+}
+
+.email, .senha {
+    width: 100%; 
+    padding: 0.5rem;
+    margin-bottom: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
